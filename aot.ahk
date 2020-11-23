@@ -7,4 +7,4 @@ h_WinTitle:="Adobe Connect"
 WinWait, % h_WinTitle
 WinGet, h_WinID, ID, % h_WinTitle
 
-WinSet, Transparent, 0, ahk_id %h_WinID%
+^SPACE::  Winset, Alwaysontop, , A ; updated
